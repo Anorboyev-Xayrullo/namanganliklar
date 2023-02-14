@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: 
+    #E1D3FE !important;
+}
+.food h2{
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 39px;
+    letter-spacing: 0.05em;
+    color: #363853;
+}
+
+.food span{
+    color: #FF6838;
+}
+
+.navbar-list{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.navbar-list li{
+    font-size: 20px;
+    color: #383653;
+    margin-left: 50px;
+}
+
+.ignore{
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.fa-telegram{
+    margin-left: 60px;
+}
+.ignore button{
+    margin-left: 60px;
+    background: #FF7A50;
+    width: 120px;
+    height: 50px;
+    border: none;
+box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+border-radius: 10   px;
+}
+
+.fa-magnifying-glass{
+    margin-left: 30px;
+}
+.header{
+    margin-top: 50px;
+}
+
+.center h2{
+    font-weight: 500;
+font-size: 60px;
+line-height: 70px;
+text-transform: capitalize;
+color: #363853;
+margin-top: 200px;
+}
+
+.center h2 span{
+    color: #FF6838;
+}
+.center p{
+    font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-transform: capitalize;
+color: #363853;
+}
+.circuit{
+    display: flex;
+    align-items: center;
+}
+.circuit button{
+    background: #FF7A50;
+box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+border-radius: 5px;
+color: #fff;
+width: 163px;
+height: 50px;
+border: none;
+}
+
+.circuit p{
+    margin-left: 30px;
+    font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-decoration-line: underline;
+color: #363853;
+}
+.scoter{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.our{
+    margin-top: 80px;
+    font-weight: 500;
+font-size: 36px;
+line-height: 43px;
+text-transform: capitalize;
+color: #363853;
+text-align: center;
+margin-bottom: 100px;
+}
+.our span{
+    color: #FF6838;
+}
+
+.range button{
+    display: flex;
+    align-items: center;
+    width: 190px;
+    height: 70px;
+    background: #FF7A50;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    border: none;
+}
+
+.range button img{
+margin-left: 40px;
+margin-top: 10px;
+}
+
+.range button p{
+    margin-left: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.range div{
+    display: flex;
+    align-items: center;
+    width: 190px;
+    height: 70px;
+    background-color: rgb(237, 222, 222);
+}
+.range div img{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.range div p{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.range{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.triangle{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.triangle div{
+    width: 185px;
+    height: 300px;
+    background-color: rgb(237, 222, 222);
+}
+.triangle div h4{
+    font-weight: 400;
+    font-size: 15px;
+    margin: 10px 0px;
+    line-height: 18px;
+    color: #363853;
+    text-align: center;
+}
+.triangle div p{
+    font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #363853;
+text-align: center;
+}
+
+.triangle div button{
+    width: 106px;
+height: 32px;
+background: #FF7A50;
+border-radius: 2px;
+color: #fff;
+border: none;
+margin-left: 50px;
+}
+.triangle div img{
+    width: 90%;
+    margin-left: 20px;
+}
+.fa-star{
+    margin-left: 13px;
+    color: yellow;
+}
+
+.cricle h2{
+    font-weight: 500;
+font-size: 36px;
+line-height: 50px;
+text-transform: capitalize;
+color: #383653;
+}
+.cricle h2 span{
+    color: #FF6838;
+}
+
+.alert{
+display: flex;
+align-items: center;
+margin-top: 200px;
+}
+
+.alert h2{
+    font-weight: 500;
+font-size: 36px;
+line-height: 50px;
+text-transform: capitalize;
+color: #363853;
+}
+
+.alert h2 span{
+    color: #FF6838;
+    width: 384px;
+    height: 100px;
+}
+
+.alert p{
+    font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #363853;
+opacity: 0.9;
+}
+
+.provide{
+    display: flex;
+    align-items: center;
+}
+
+.provide p{
+    font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+text-transform: capitalize;
+color: #363853;
+padding-left: 20px;
+padding-top: 10px;
+}
+
+.top{
+    font-weight: 500;
+font-size: 36px;
+line-height: 30px;
+text-transform: capitalize;
+color: #363853;
+text-align: center;
+}
+.top span{
+    color: #FF6838;
+}
+.blaze{
+    width: 330px;
+    height: 380px;
+    background: #b7b4b4;
+    border-radius: 53px 5px;
+    margin-top: 50px;
+}
+.blaze img{
+    width: 100%;
+}
+.blaze h6{
+    font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+color: #363853;
+margin:20px 30px;
+
+}
+
+.blaze p{
+    font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+margin-left: 30px;
+color: #363853;
+}
+
+.restaurant{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.mobile h2{
+    font-weight: 500;
+font-size: 36px;
+line-height: 50px;
+text-transform: capitalize;
+color: #363853;
+}
+.mobile h2 span{
+    color: #FF6838;
+}
+.mobile p{
+    font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #363853;
+}
+.phone button div{
+    display: flex;
+    align-items: center;
+    background-color: rgb(12, 6, 6);
+    border-radius: 10px;
+}
+.mobile{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;  
+}
+.mobile img{
+    margin-left: 50px;
+}
+.mobile button div{
+    display: flex;
+    align-items: center;
+}
+.mobile button{
+    background-color: rgb(8, 3, 3);
+    border: none;
+    border-radius: 10px;
+}
+.mobile button div h5{
+    margin-top: 10px;
+    color: #fff;
+    margin-right: 50px;
+}
+.mobile button  p{
+    color: #fff;
+}
+
+.fa-apple{
+    margin-top: 10px;
+    margin-right: 30px;
+    color: #fff;
+}
+.fa-google-play{
+    color: #fff;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+
+.what{
+    text-align: center;font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.5px;
+    color: #363853;
+    margin-top: 100px;
+}
+.what span{
+    color: #FF6838;
+}
+
+.clear{
+    display: flex;
+    align-items: center;
+}
+.clear p{
+    font-weight: 400;
+font-size: 20px;
+line-height: 45px;
+letter-spacing: 0.5px;
+color: #363853;
+}
+.clear h6{
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #FF7A50;
+}
+.clear span{
+    font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #AAAAAA;
+}
+
+.fa-arrow-left{
+    margin-left:  300px;
+}
+.fa-arrow-right{
+    margin-left: 50px;
+    color: #FF6838;
+}
+.main-nav{
+    
+    width: 1170px;
+    height: 312px;
+    background-color: #FF6838;
+}
+.main-nav h2{
+    margin-top: 60px;
+    font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+color: #FFFFFF;
+}
+.main-nav p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+}
+.main-nav input{
+    width: 838px;
+    height: 78px;
+    background: #FFFFFF;
+box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.07);
+border-radius: 70px;
+border: none;
+margin-left: 100px;
+padding-left: 70px;
+}
+.your{
+    margin-top: 10px;
+    color: #fff;
+    border: none;
+    position: absolute;
+    width: 191.1px;
+height: 48.5px;
+margin-left: -200px !important;
+background: #FF7A50;
+border-radius: 70px;
+}
+
+.main-nav button  {
+    width: 190px;
+    height: 58px;
+    background: #FF7A50;
+border-radius: 70px;
+border: none;
+margin-right: 40px;
+}
+.latest{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu div{
+    display: flex;
+    align-items: center;
+}
+.menu div p{
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+
+.contact{
+    margin-top: 100px;
+    font-weight: 500;
+font-size: 33px;
+line-height: 80px;
+color: #383653;
+}
+.contact span{
+    color: #FF6838;
+}
+.fa-instagram{
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    background: #EEEEEF;
+    border-radius: 100px;
+    padding-left: 13px;
+    padding-top: 13px;
+}.fa-facebook{
+    padding-left: 13px;
+    padding-top: 13px;
+    width: 40px;
+    height: 40px;
+    background: #EEEEEF;
+    border-radius: 100px;
+}
+.fa-twitter{
+    margin-left: 30px;
+    padding-left: 13px;
+    padding-top: 13px;
+    width: 40px;
+    border-radius: 100px;
+    height: 40px;
+    background: #EEEEEF;
+}
+.fa-pinterest-p{
+    padding-left: 13px;
+    padding-top: 13px;
+    border-radius: 100px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    background: #EEEEEF;
+}
+
+
+
+
